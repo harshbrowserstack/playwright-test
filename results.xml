@@ -1,0 +1,138 @@
+<testsuites id="" name="" tests="8" failures="4" skipped="0" errors="0" time="12.648">
+<testsuite name="test_1.spec.js" timestamp="1687773526130" hostname="" tests="2" failures="1" skipped="0" time="8.951" errors="0">
+<testcase name="Launch BStackDemo " classname="[chrome] › test_1.spec.js:4:3 › Launch BStackDemo › " time="7.144">
+<system-out>
+StackDemo
+
+</system-out>
+</testcase>
+<testcase name="Login To BStack Demo " classname="[chrome] › test_1.spec.js:15:3 › Login To BStack Demo › " time="1.807">
+<failure message="test_1.spec.js:15:3 " type="FAILURE">
+  [chrome] › test_1.spec.js:15:3 › Login To BStack Demo ›  =========================================
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    Expected: "StackDemos"
+    Received: "StackDemo"
+
+      19 |     const title = await page.title('');
+      20 |     console.log(title);
+    > 21 |     expect(title).toEqual( 'StackDemos', 'Login Failed!');
+         |                   ^
+      22 |
+      23 |   });
+      24 | });
+
+        at /Users/harshagarwal/Downloads/playwright-browserstack-main/playwright-test/tests/test_1.spec.js:21:19
+        at WorkerRunner._runTestWithBeforeHooks (/Users/harshagarwal/Downloads/playwright-browserstack-main/playwright-test/node_modules/@playwright/test/lib/workerRunner.js:499:7)
+
+</failure>
+<system-out>
+StackDemo
+
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test_1.spec.js" timestamp="1687773526130" hostname="" tests="2" failures="1" skipped="0" time="4.085" errors="0">
+<testcase name="Launch BStackDemo " classname="[safari] › test_1.spec.js:4:3 › Launch BStackDemo › " time="2.324">
+<system-out>
+StackDemo
+
+</system-out>
+</testcase>
+<testcase name="Login To BStack Demo " classname="[safari] › test_1.spec.js:15:3 › Login To BStack Demo › " time="1.761">
+<failure message="test_1.spec.js:15:3 " type="FAILURE">
+  [safari] › test_1.spec.js:15:3 › Login To BStack Demo ›  =========================================
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    Expected: "StackDemos"
+    Received: "StackDemo"
+
+      19 |     const title = await page.title('');
+      20 |     console.log(title);
+    > 21 |     expect(title).toEqual( 'StackDemos', 'Login Failed!');
+         |                   ^
+      22 |
+      23 |   });
+      24 | });
+
+        at /Users/harshagarwal/Downloads/playwright-browserstack-main/playwright-test/tests/test_1.spec.js:21:19
+        at WorkerRunner._runTestWithBeforeHooks (/Users/harshagarwal/Downloads/playwright-browserstack-main/playwright-test/node_modules/@playwright/test/lib/workerRunner.js:499:7)
+
+</failure>
+<system-out>
+StackDemo
+
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test_1.spec.js" timestamp="1687773526130" hostname="" tests="2" failures="1" skipped="0" time="11.687" errors="0">
+<testcase name="Launch BStackDemo " classname="[firefox] › test_1.spec.js:4:3 › Launch BStackDemo › " time="7.095">
+<system-out>
+StackDemo
+
+</system-out>
+</testcase>
+<testcase name="Login To BStack Demo " classname="[firefox] › test_1.spec.js:15:3 › Login To BStack Demo › " time="4.592">
+<failure message="test_1.spec.js:15:3 " type="FAILURE">
+  [firefox] › test_1.spec.js:15:3 › Login To BStack Demo ›  ========================================
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    Expected: "StackDemos"
+    Received: "StackDemo"
+
+      19 |     const title = await page.title('');
+      20 |     console.log(title);
+    > 21 |     expect(title).toEqual( 'StackDemos', 'Login Failed!');
+         |                   ^
+      22 |
+      23 |   });
+      24 | });
+
+        at /Users/harshagarwal/Downloads/playwright-browserstack-main/playwright-test/tests/test_1.spec.js:21:19
+        at WorkerRunner._runTestWithBeforeHooks (/Users/harshagarwal/Downloads/playwright-browserstack-main/playwright-test/node_modules/@playwright/test/lib/workerRunner.js:499:7)
+
+</failure>
+<system-out>
+StackDemo
+
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="test_1.spec.js" timestamp="1687773526130" hostname="" tests="2" failures="1" skipped="0" time="11.421" errors="0">
+<testcase name="Launch BStackDemo " classname="[chrome@pixel5] › test_1.spec.js:4:3 › Launch BStackDemo › " time="7.17">
+<system-out>
+StackDemo
+
+</system-out>
+</testcase>
+<testcase name="Login To BStack Demo " classname="[chrome@pixel5] › test_1.spec.js:15:3 › Login To BStack Demo › " time="4.251">
+<failure message="test_1.spec.js:15:3 " type="FAILURE">
+  [chrome@pixel5] › test_1.spec.js:15:3 › Login To BStack Demo ›  ==================================
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    Expected: "StackDemos"
+    Received: "StackDemo"
+
+      19 |     const title = await page.title('');
+      20 |     console.log(title);
+    > 21 |     expect(title).toEqual( 'StackDemos', 'Login Failed!');
+         |                   ^
+      22 |
+      23 |   });
+      24 | });
+
+        at /Users/harshagarwal/Downloads/playwright-browserstack-main/playwright-test/tests/test_1.spec.js:21:19
+        at WorkerRunner._runTestWithBeforeHooks (/Users/harshagarwal/Downloads/playwright-browserstack-main/playwright-test/node_modules/@playwright/test/lib/workerRunner.js:499:7)
+
+</failure>
+<system-out>
+StackDemo
+
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
